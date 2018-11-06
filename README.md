@@ -1,3 +1,9 @@
+<p align="center">
+  <b>Chatopera开发者平台：809987971， <a href="https://jq.qq.com/?_wv=1027&k=5S51T2a" target="_blank">点击链接加入群聊</a></b><br>
+  <img src="https://user-images.githubusercontent.com/3538629/48062941-7e32c780-e1fe-11e8-9d51-8702de9a16ed.png" width="200">
+</p>
+
+
 # chatopera-sample-java
 企业聊天机器人-Java端示例程序
 
@@ -10,6 +16,8 @@
 [创建机器人](#创建机器人)
 
 [执行程序](#执行程序)
+
+[项目配置及接口说明](https://github.com/chatopera/chatopera-sample-java/wiki)
 
 [帮助](#帮助)
 
@@ -39,6 +47,8 @@ mvn install
   </a>
 </p>
 
+
+## 创建机器人
 
 ### 点击“立即使用”
 
