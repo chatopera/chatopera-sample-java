@@ -17,9 +17,7 @@
 
 [执行程序](#执行程序)
 
-[项目配置及接口说明](https://github.com/chatopera/chatopera-sample-java/wiki)
-
-[帮助](#帮助)
+[开发者文档](#开发者文档)
 
 [更多SDK](#更多SDK)
 
@@ -150,9 +148,9 @@ mvn clean compile exec:java -Dexec.mainClass="com.chatopera.bot.sample.App"
 
 以上。
 
-## 帮助
+## 开发者文档
 
-关于接入Chatopera Java SDK的更多细节和机器人的接口，请参考[文档](https://github.com/chatopera/chatopera-sample-java/wiki)。
+关于项目配置，机器人的Java接口等更多细节，请参考[开发者文档](https://github.com/chatopera/chatopera-sample-java/wiki)。
 
 ## 更多SDK
 
