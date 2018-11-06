@@ -1,6 +1,6 @@
 <p align="center">
   <b>Chatopera开发者平台：809987971， <a href="https://jq.qq.com/?_wv=1027&k=5S51T2a" target="_blank">点击链接加入群聊</a></b><br>
-  <img src="https://user-images.githubusercontent.com/3538629/48062941-7e32c780-e1fe-11e8-9d51-8702de9a16ed.png" width="200">
+  <img src="https://user-images.githubusercontent.com/3538629/48065864-d2da4080-e206-11e8-9f3b-a739719572dd.png" width="200">
 </p>
 
 
