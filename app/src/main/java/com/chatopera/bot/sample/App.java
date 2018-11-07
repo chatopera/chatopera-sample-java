@@ -29,7 +29,7 @@ public class App {
             System.out.println("【SDK】获取到clientId 和 secret:");
             System.out.println("clientId " + clientId);
             System.out.println("secret " + secret);
-            Chatbot chatbot = new Chatbot(clientId, secret, "http://bot.chatopera.com");
+            Chatbot chatbot = new Chatbot(clientId, secret);
             System.out.println("【SDK】发送请求 ...");
             JSONObject response = chatbot.faq("javasdk", "保全作业常见问题");
             System.out.println("【SDK】打印返回结果");
