@@ -121,7 +121,6 @@ chatbot.secret=机器人的Secret
 
 ```
 cd chatopera-sample-java/app
-mvn install
 mvn clean compile exec:java -Dexec.mainClass="com.chatopera.bot.sample.App"
 ```
 
