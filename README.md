@@ -67,7 +67,7 @@ mvn install
 
 ### 下载知识库文件
 
-下载知识库示例文件[保全作业中常见问题.csv](https://raw.githubusercontent.com/chatopera/chatbot-sales/master/%E4%BF%9D%E9%99%A9/faq/%E4%BF%9D%E5%85%A8%E4%BD%9C%E4%B8%9A%E4%B8%AD%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98.csv)，保存文件名为*保全作业中常见问题.csv*。
+下载知识库示例文件[保全作业中常见问题.xlsx](https://github.com/chatopera/chatbot-sales/raw/master/%E4%BF%9D%E9%99%A9/faq/%E4%BF%9D%E5%85%A8%E4%BD%9C%E4%B8%9A%E4%B8%AD%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98.xlsx)，保存文件名为*保全作业中常见问题.xlsx*。
 
 
 ### 导入知识库
@@ -79,7 +79,7 @@ mvn install
   </a>
 </p>
 
-选择*保全作业中常见问题.csv*，这时，会显示问答对列表，点击“提交”，在进度条完成后，知识库导入成功。
+选择*保全作业中常见问题.xlsx*，这时，会显示问答对列表，点击“提交”，在进度条完成后，知识库导入成功。
 
 ### 测试知识库
 
