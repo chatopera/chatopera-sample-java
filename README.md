@@ -3,11 +3,11 @@
   <img src="https://user-images.githubusercontent.com/3538629/48105854-0bfcca00-e274-11e8-8eb4-ffb46a2c9179.png" width="200">
 </p>
 
-
 # chatopera-sample-java
-企业聊天机器人-Java端示例程序
 
-本教程介绍如何使用Chatopera机器人开发者平台的Java SDK与机器人进行集成，阅读本教程需要20分钟时间。
+企业聊天机器人-Java 端示例程序
+
+本教程介绍如何使用 Chatopera 机器人开发者平台的 Java SDK 与机器人进行集成，阅读本教程需要 20 分钟时间。
 
 [获取源码](#获取源码)
 
@@ -19,12 +19,11 @@
 
 [开发者文档](#开发者文档)
 
-[更多SDK](#更多SDK)
+[更多 SDK](#更多SDK)
 
 [开源许可协议](#开源许可协议)
 
 ## 获取源码
-
 
 ```
 git clone https://github.com/chatopera/chatopera-sample-java.git
@@ -37,14 +36,12 @@ cd chatopera-sample-java/app
 mvn install
 ```
 
-
 <p align="center">
   <b>登录Chatopera聊天机器人平台</b><br>
   <a href="http://bot.chatopera.com/" target="_blank">
       <img src="https://user-images.githubusercontent.com/3538629/48039685-e35fcc00-e1b0-11e8-81a9-f26d744fcd1d.png" width="800">
   </a>
 </p>
-
 
 ## 创建机器人
 
@@ -56,19 +53,17 @@ mvn install
 
 点击“创建机器人”，并填入下面各项：
 
-| 项目 | 值 | 描述 |
-| --- | --- | --- |
-| 机器人名称 | 小松 | 机器人的名字 |
-| 描述 | 机器人示例 | 机器人的描述 |
-| 语言 | zh_CN | 机器人的语言，目前支持中文(zh_CN)和英文(en_US) |
+| 项目       | 值         | 描述                                           |
+| ---------- | ---------- | ---------------------------------------------- |
+| 机器人名称 | 小松       | 机器人的名字                                   |
+| 描述       | 机器人示例 | 机器人的描述                                   |
+| 语言       | zh_CN      | 机器人的语言，目前支持中文(zh_CN)和英文(en_US) |
 
 【提示】其它项如兜底回复，问候语可以在创建后，设置页面修改。
-
 
 ### 下载知识库文件
 
 下载知识库示例文件[保全作业中常见问题.xlsx](https://github.com/chatopera/chatbot-sales/raw/master/%E4%BF%9D%E9%99%A9/faq/%E4%BF%9D%E5%85%A8%E4%BD%9C%E4%B8%9A%E4%B8%AD%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98.xlsx)，保存文件名为*保全作业中常见问题.xlsx*。
-
 
 ### 导入知识库
 
@@ -90,14 +85,13 @@ mvn install
   </a>
 </p>
 
-**输入：** 保全作业中常见问题 
+**输入：** 保全作业中常见问题
 
 确认得到回复。
 
 ### 获取*ClientId*和*Secret*
 
-集成机器人服务的方式是通过SDK，每个机器人实例需要通过*ClientId*和*Secret*初始化，完成认证和授权。打开机器人【设置】页面，拷贝*ClientId*和*Secret*。
-
+集成机器人服务的方式是通过 SDK，每个机器人实例需要通过*ClientId*和*Secret*初始化，完成认证和授权。打开机器人【设置】页面，拷贝*ClientId*和*Secret*。
 
 <p align="center">
   <b>显示Secret</b><br>
@@ -106,11 +100,9 @@ mvn install
   </a>
 </p>
 
-
 ## 执行程序
 
-
-在完成如上步骤后，修改程序的配置文件，使用文本编辑器打开```src/main/resources/sample.properties```，并设置如下内容：
+在完成如上步骤后，修改程序的配置文件，使用文本编辑器打开`src/main/resources/sample.properties`，并设置如下内容：
 
 ```
 chatbot.clientId=机器人的ClientId
@@ -147,12 +139,24 @@ mvn clean compile exec:java -Dexec.mainClass="com.chatopera.bot.sample.App"
 
 以上。
 
+## 技能
+
+技能 API 是`Chatopera云服务`中面向不同行业领域定制的开箱即用的服务。
+
+### 心理问答 API
+
+```
+chatbot.psychSearch
+chatbot.psychChat
+```
+
+详细介绍文档[https://docs.chatopera.com/products/psych-assistant/api.html](https://docs.chatopera.com/products/psych-assistant/api.html)。
+
 ## 开发者文档
 
-关于项目配置，机器人的Java接口等更多细节，请参考[开发者文档](https://github.com/chatopera/chatopera-sample-java/wiki)。
+关于项目配置，机器人的 Java 接口等更多细节，请参考[开发者文档](https://github.com/chatopera/chatopera-sample-java/wiki)。
 
-## 更多SDK
-
+## 更多 SDK
 
 <p align="center">
   <b>集成面板</b><br>
@@ -161,17 +165,15 @@ mvn clean compile exec:java -Dexec.mainClass="com.chatopera.bot.sample.App"
   </a>
 </p>
 
-
 ## Trouble Shooting
 
-1. ```mvn install```抛出异常，SunCertPathBuilderException
+1. `mvn install`抛出异常，SunCertPathBuilderException
 
 ```
 sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
 ```
 
 [解决方案](https://github.com/chatopera/chatopera-sample-java/issues/1)
-
 
 2. 运行程序，得到如下返回结果
 
@@ -181,9 +183,7 @@ secret bar
 {"rc":1,"error":"invalid appId."}
 ```
 
-这是因为```clientId```和```secret```配置不正确。请确保该值是写入```src/main/resources/sample.properties```的有效的聊天机器人配置。
-
-
+这是因为`clientId`和`secret`配置不正确。请确保该值是写入`src/main/resources/sample.properties`的有效的聊天机器人配置。
 
 ## 开源许可协议
 
