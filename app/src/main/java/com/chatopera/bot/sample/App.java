@@ -16,13 +16,13 @@ public class App {
         Properties props = new Properties();
 
         props.load(App.class.getResourceAsStream("/sample.properties"));
-        String clientId = props.get("chatbot.clientId").toString();
-        String secret = props.get("chatbot.secret").toString();
+        String clientId = props.get("bot.clientId").toString();
+        String secret = props.get("bot.secret").toString();
 
         // 尝试从环境变量加载
-        if ((System.getenv("CHATBOT_CLIENT_ID") != null) && (System.getenv("CHATBOT_CLIENT_SECRET") != null)) {
-            clientId = System.getenv("CHATBOT_CLIENT_ID");
-            secret = System.getenv("CHATBOT_CLIENT_SECRET");
+        if ((System.getenv("BOT_CLIENT_ID") != null) && (System.getenv("BOT_CLIENT_SECRET") != null)) {
+            clientId = System.getenv("BOT_CLIENT_ID");
+            secret = System.getenv("BOT_CLIENT_SECRET");
         }
 
         if (clientId != null && secret != null) {

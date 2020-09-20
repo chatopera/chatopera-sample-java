@@ -31,8 +31,8 @@ mvn install
 在完成如上步骤后，修改程序的配置文件，使用文本编辑器打开`src/main/resources/sample.properties`，并设置如下内容：
 
 ```
-chatbot.clientId=机器人的ClientId
-chatbot.secret=机器人的Secret
+bot.clientId=机器人的ClientId
+bot.secret=机器人的Secret
 ```
 
 然后执行命令
@@ -54,7 +54,7 @@ mvn clean compile exec:java -Dexec.mainClass="com.chatopera.bot.sample.App"
 
 ## 开源许可协议
 
-Copyright (2018) [北京华夏春松科技有限公司](https://www.chatopera.com/)
+Copyright (2018-2020) [北京华夏春松科技有限公司](https://www.chatopera.com/)
 
 [Apache License Version 2.0](./LICENSE)
 
