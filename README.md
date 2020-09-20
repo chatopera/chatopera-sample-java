@@ -5,9 +5,11 @@
 
 # chatopera-sample-java
 
-企业聊天机器人-Java 端示例程序
+聊天机器人-Java 端示例程序
 
 本教程介绍如何使用 Chatopera 机器人开发者平台的 Java SDK 与机器人进行集成，阅读本教程需要 20 分钟时间。
+
+系统集成参考[文档中心](https://docs.chatopera.com/products/chatbot-platform/integration.html)。
 
 ## 快速开始
 
