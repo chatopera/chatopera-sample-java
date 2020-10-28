@@ -39,15 +39,6 @@ public class App {
             System.out.println("【SDK】打印返回结果");
             System.out.println(response.toString());
 
-            /**
-             * 技能 心理问答API 查询接口
-             */
-            // System.out.println("【SDK】发送请求 ...");
-            // response = chatbot.psychSearch("确定自己是否有抑郁倾向，想要知道自己当下该怎么办");
-            // System.out.println("【SDK】打印返回结果");
-            // System.out.println(response.toString());
-
-
         } else {
             System.out.println("未发现配置 clientId和secret");
             System.out.println("Usage \n mvn clean compile exec:java -Dexec.mainClass=\"com.chatopera.bot.sample.App\"");
