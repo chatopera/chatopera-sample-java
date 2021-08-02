@@ -1,11 +1,10 @@
-<p align="center">
-  <b>Chatopera开发者平台：809987971， <a href="https://jq.qq.com/?_wv=1027&k=5S51T2a" target="_blank">点击链接加入群聊</a></b><br>
-  <img src="https://user-images.githubusercontent.com/3538629/48105854-0bfcca00-e274-11e8-8eb4-ffb46a2c9179.png" width="200">
-</p>
-
 # chatopera-sample-java
 
-聊天机器人-Java 端示例程序
+http://bot.chatopera.com/
+
+为企业交付智能对话机器人 / Deliver Chatbots for Enterprises.
+
+Chatopera 机器人平台， Java 开发端示例程序
 
 本教程介绍如何使用 Chatopera 机器人开发者平台的 Java SDK 与机器人进行集成，阅读本教程需要 20 分钟时间。
 
@@ -50,13 +49,20 @@ mvn clean compile exec:java -Dexec.mainClass="com.chatopera.bot.sample.App"
 
 关于项目配置，机器人的 Java 接口等更多细节，请参考[开发者文档](https://github.com/chatopera/chatopera-sample-java/wiki)。
 
+* 联系我们获得更多支持
+
+<p align="center">
+  <b>在 Chatopera 客户群中也包括其他用户，请不要发送敏感信息。讨论与 Chatopera 产品和服务相关的事宜。</b><br>
+  <img src="https://user-images.githubusercontent.com/3538629/127828298-8a8ab6d9-2b35-4923-83d2-173708f5fbf6.png" width="600">
+</p>
+
 ## Trouble Shooting
 
 参考[文档中心/系统集成/常见问题](https://docs.chatopera.com/products/chatbot-platform/integration.html#%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98)。
 
 ## 开源许可协议
 
-Copyright (2018-2020) [北京华夏春松科技有限公司](https://www.chatopera.com/)
+Copyright (2018-2021) [北京华夏春松科技有限公司](https://www.chatopera.com/)
 
 [Apache License Version 2.0](./LICENSE)
 
