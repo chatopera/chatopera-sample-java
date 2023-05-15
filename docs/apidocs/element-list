@@ -1,3 +1,5 @@
 com.chatopera.bot.exception
 com.chatopera.bot.sdk
+com.chatopera.bot.sdk.basics
+com.chatopera.bot.sdk.models
 com.chatopera.bot.utils
