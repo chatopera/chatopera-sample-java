@@ -1,1 +1,0 @@
-/usr/lib/jvm/java-17-amazon-corretto/bin/javadoc @options @packages
