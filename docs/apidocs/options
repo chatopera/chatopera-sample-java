@@ -6,7 +6,7 @@
 -source
 '1.8'
 -sourcepath
-'C:/Users/Administrator/chatopera/chatopera-java-sdk/src/main/java'
+'C:/Users/Administrator/chatopera/chatopera-java-sdk/src/main/java;C:/Users/Administrator/chatopera/chatopera-java-sdk/target/generated-sources/annotations'
 -author
 -bottom
 'Copyright &#169; 2023. All rights reserved.'
@@ -17,10 +17,10 @@
 -docencoding
 'UTF-8'
 -doctitle
-'sdk 3.5.3 API'
+'sdk 3.5.4 API'
 -linkoffline
 'https://docs.oracle.com/javase/8/docs/api' 'C:/Users/Administrator/chatopera/chatopera-java-sdk/target/javadoc-bundle-options'
 -use
 -version
 -windowtitle
-'sdk 3.5.3 API'
+'sdk 3.5.4 API'
